@@ -10,8 +10,7 @@
    
 	// get user input
 	let age = parseInt(document.getElementById('age').value)
-  let select = document.getElementById('day');
-	let day = select.options[select.selectedIndex].value;
+  let day = document.getElementById('day');
   
   if (age < 5 || age > 95) {
 		cost = "The cost is FREE for you."
